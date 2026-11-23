@@ -1,0 +1,102 @@
+/* BOUTON CONTACTEZ NOUS */
+.carte_bouton {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: rgb(42, 72, 31);
+  margin-top: 25px;
+  border-radius: 25px;
+  position: relative;
+  bottom: 1.68px;
+}
+
+/* DEMI BOUTON FUSIONNER AVEC INPUT RESTAURANT PRES DE CHEZ VOUS */
+
+input + .carte_bouton {
+  padding: 4px 20px 4px 15px;
+  /*HEIGHT DE 2EM POUR ETRE EQUIVALENT AU HEIGHT DU INPUT*/
+  height: 2em;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 25px;
+  border-top-right-radius: 25px;
+  border-style: none;
+}
+
+/* PARAMÈTRES DES CARTES */
+.carte {
+  text-align: center;
+}
+
+.carte h1 {
+  text-shadow: -2px -2px 0 black;
+  margin-top: 35px;
+}
+
+.carte p {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+/* PADDING TOP ET BOTTOM DES ENFANTS DES CARTES */
+.carte > * {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  /*background-color: rgb(207, 207, 163);
+  border: 1px solid rgb(53, 93, 38);*/
+  background-color: rgb(53, 93, 38);
+  border-radius: 25px;
+  min-height: 200px;
+}
+
+/* PARAMETRES DU INPUT DE TEXTE POUR RESTAURANT PRES DE CHEZ VOUS*/
+.carte input {
+  display: inline-block;
+  /*HEIGHT DE 2EM POUR ETRE EQUIVALENT AU HEIGHT DU INPUT*/
+  height: 2em;
+  padding: 6px 8px;
+  width: 25%;
+  margin-top: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-style: none;
+  background-color: rgb(207, 207, 163);
+  /*background-color: rgb(53, 93, 38);*/
+}
+.carte button {
+  display: inline-block;
+  /*HEIGHT DE 2EM POUR ETRE EQUIVALENT AU HEIGHT DU INPUT*/
+  height: 2em;
+  padding: 6px 8px;
+  width: 25%;
+  margin-top: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-style: none;
+  background-color: rgb(207, 207, 163);
+}
+/*.carte > header {
+  min-height: 20px;
+  background-color: inherit;
+}
+.carte > header > h2 {
+  min-height: 20px;
+  background-color: inherit;
+}
+.carte > div > h2 {
+  text-shadow: -1px -1px 0 black;
+  color: khaki;
+}
+.carte h1 {
+  text-shadow: -1px -1px 0 khaki;
+  color: rgb(40, 87, 29);
+}*/
+
+@media screen and (max-width: 1070px) {
+  .carte > * {
+    border-radius: 0;
+    padding-top: 60px;
+  }
+  .carte h1 {
+    margin: 3px;
+  }
+}

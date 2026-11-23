@@ -1,0 +1,71 @@
+/* LE FOOTER EST EN FLEX ET A UN PADDING DE 50PX */
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    background-color: black;
+}
+
+/*MARGE POUR SEPARER LE CONTENU DU FOOTER*/
+.footer_marge {
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:none;
+}
+
+/* PADDING POUR EVITER QUE LE TEXTE SE COLLE ENSEMBLE LORSQUE LA PAGE SE RÉTRÉCIE */
+.footer_1,
+.footer_2,
+.footer_3 {
+    padding-right: 20px;
+    margin-right: 5vw;
+}
+
+/* ENLEVER LES LIST STYLES ET LE PADDING PAR DEFAUT*/
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* ENLEVER LES TEXT DECORATION DES ANCHOR TAGS PAR DEFAUT*/
+a {
+    text-decoration: none;   
+}
+
+/* TOUS LES ENFANTS SE DIVISE L'ESPACE ÉGALEMENT*/
+.footer>* {
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+/* POUR LA DERNIERE SECTION DU FOOTER ON VEUT ALIGNER LE TEXTE A DROITE */
+.footer_droite {
+    text-align: right;
+    position: relative;
+    right: 40px;
+}
+
+@media screen and (max-width: 1070px) {
+
+    /* ENLEVER LE PADDING LORSQUE LE TEXTE SE MET EN VERTICAL*/
+    .footer_1,
+    .footer_2,
+    .footer_3{
+        margin: 0;
+        text-align: center;
+    }
+
+    /*LE FOOTER DEVIENT VERTICAL LORSQUE L'ÉCRAN DEVIENT 720PX*/
+    .footer {
+        flex-direction: column;
+        gap: 20px; 
+    }
+    .footer_droite {
+        text-align: center;
+        left: 10px;
+    }
+  
+}

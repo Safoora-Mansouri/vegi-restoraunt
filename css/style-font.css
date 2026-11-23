@@ -1,0 +1,106 @@
+/* ---------------------LIEN VERS L'ÉCHELLE TYPOGRAPHIQUE---------------------*/
+/* https://spencermortensen.com/articles/typographic-scale/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+html {
+    font-size: 100%;
+}
+
+* {
+    color: rgb(243, 225, 128);
+    letter-spacing: 1.5px;    
+}
+
+body {
+    background: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+nav a {
+    font-size: 23px;
+    color: rgb(243, 225, 128);
+    font-weight: bold;
+    text-shadow:-1px -1px 0 black;
+}
+
+.font_texte_logo {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1;
+    text-shadow:-2px -2px 0 rgb(243, 225, 128);
+}
+
+h2 {
+    font-size: 2.1em;
+    font-weight: bold;
+    line-height: 1.1;
+    text-shadow:-2px -2px 0 rgb(243, 225, 128);
+}
+
+h3 {
+    font-size: 1.5157em;
+    line-height: 1.1;
+}
+
+h4 {
+    font-size: 1.3195em;
+    line-height: 1.1;
+}
+
+h5 {
+    font-size: 1.1487em;
+    line-height: 1.1;
+}
+
+p {
+    font-size: 1.6em;
+    text-shadow:-1px -1px 0 black;
+    font-weight: bold;
+    color: rgb(243, 225, 128);
+    filter: contrast(1);
+}
+
+/* GROSSEUR CUSTOM ET RESPONSIVE POUR LE LOGO*/
+.font_hero_gros_texte {
+    font-size: 14vw;
+    font-family: "Londrina Outline";
+    font-weight: lighter;
+}
+
+.font_hero_gros_texte_recette {
+    font-size: 9vw;
+    font-family: "Londrina Outline";    
+}
+
+/* GROSSEUR CUSTOM ET RESPONSIVE POUR LE SLOGAN*/
+.font_hero_moyen_texte {
+    font-size:3vw ;
+}
+
+/* COULEUR BLANC DU TEXTE POUR LE LOGO ET LE SLOGAN*/
+.font_texte_couleur {
+    color:rgb(243, 225, 128);
+    text-shadow:-2px -2px 0 black;
+}
+.font_texte_recette{
+    color:rgb(243, 225, 128);
+    text-shadow:-2px -2px 0 black;
+}
+
+@media screen and (max-width: 720px){
+    h1 {
+        font-size: 2em;
+        line-height: 1.1;
+    }
+    
+    p {
+      font-size: 1em;
+    }
+
+}

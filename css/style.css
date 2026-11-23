@@ -1,0 +1,103 @@
+/* TOUS LES IMPORT DES AUTRES PAGES CSS */
+
+@import "style-cartes.css";
+@import "style-footer.css";
+@import "style-font.css";
+@import "style-gallery.css";
+@import "style-navbar.css";
+@import "style-critique.css";
+
+
+
+/* ENLEVE LE MARGIN ET LE PADDING DE LA PAGE HTML PAR DEFAUT */
+body {
+  background: rgb(207, 207, 163);
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* MET LE PADDING A DROITE ET A GAUCHE DU MAIN A 50PX */
+main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* TOUS LES ENFANTS DU MAIN ONT DROIT D'AVOIR 50PX DE MARGE EN BAS ET EN HAUT */
+main > * {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+h2 {
+  text-shadow: -2px -2px 0 black;
+}
+
+/* LE TEXTE EST CENTRÉ SUR BEAUCOUP D'ÉLÉMENT EN UTILISANT TRANSFORM : TRANSLATE(-50%, -50%) ET POSITION TOP LEFT 50%*/
+.centered {
+  position: sticky;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: -2px -2px 0 black;
+  color: rgb(236, 218, 98);
+  filter: contrast(1);
+  font-size:2.7em;
+}
+.liste{
+  font-size:1.5em;
+  padding-top: 20px;
+}
+
+.menue a{
+  text-shadow: -2px -2px 0 rgb(236, 218, 98);
+  color: rgb(53, 93, 38);
+  font-weight: bold;
+}
+.menue small{
+  text-shadow: -2px -2px 0 rgb(236, 218, 98);
+  color: rgb(53, 93, 38);
+  font-weight: bold;
+}
+
+/*--------------------------safa-----------------------*/
+button {
+  border: 0px;
+  padding: 20px;
+  color: white;
+  background-color: rgb(55, 115, 73);
+  font-size: large;
+  font-weight: bold;
+  transition-duration: 300ms;
+  border-radius: 20px;
+  color: rgb(209, 202, 105);
+}
+
+button:hover {
+  /* background-color: rgba(100, 100, 100); */
+  color: rgb(209, 202, 105);
+  background-color: rgb(85, 200, 85);
+  transition-duration: 300ms;
+  font-weight: bolder;
+}
+/*----------------------safa------------------------*/
+@media screen and (max-width: 720px){
+  .liste{
+    font-size:0.85em;
+    padding-top: 10px;
+
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+  main {
+    padding: 0;
+  }
+
+  main :first-child {
+    margin-top: 1px;
+  }
+
+
+
+}

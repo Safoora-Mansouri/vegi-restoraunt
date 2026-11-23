@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Metadonnees du site, link vers le css, description, auteur -->
+<!-- POUR CHAQUE CLASSE, LE PREMIER MOT EST DIRECTEMENT LE FICHIER CSS STYLE-MOT DANS LEQUEL LA CLASSE SE TROUVE -->
+<!-- LORSQUE OMIS, J'UTILISE LE FICHIER STYLE.CSS -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Travaux pratique 1">
+    <meta name="author" content="Felix Boutin-Cousineau">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Accueil</title>
+</head>
+
+<!-- BODY DU SITE -->
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="navbar_menu">
+            <div>
+                <a href="index.html">
+                    <div class="navbar_logo">
+                        <img src="images/logo.png" alt="logo_veggi">
+                    </div>
+                </a>
+            </div>
+
+            <input type="checkbox" id="toggle">
+            <label for="toggle">
+                <img src="images/bars.svg" alt="icone menu">
+                <img src="images/close.svg" alt="icone fermer">
+            </label>
+            
+            <div class="navbar_dropdown">
+                <div class="navbar_dropdown_link">Restaurants</div>
+                    <div role="menubar" aria-haspopup="true" class="navbar_dropdown_sousmenu">
+                        <a href="#" role="menuitem" aria-haspopup="false" >Trois-Rivières</a>
+                        <a href="#" role="menuitem" aria-haspopup="false" >Drummondville</a>
+                        <a href="Val-jalbert.html" role="menuitem" aria-haspopup="false" >Val-Jalbert</a>
+                        <a href="#" role="menuitem" aria-haspopup="false">Dix30</a>
+                        <a href="#" role="menuitem" aria-haspopup="false">Toronto</a>
+                        <a href="#" role="menuitem" aria-haspopup="false">Berlin</a>
+                    </div>          
+                </div>
+
+                <div role="menubar" class="navbar_menu_top">
+                    <a href="#" role="menuitem" aria-haspopup="false">Trouver un restaurant</a>
+                    <a href="#" role="menuitem" aria-haspopup="false">Faire une réservation</a>
+                    <a href="#" role="menuitem" aria-haspopup="false">Commande en ligne</a>
+                </div>
+            </div>    
+    </nav> 
+
+    <main>
+        <!-- SECTION AVEC LE HERO DE PAGE (AJOUT DE SCÉNARISATION) DANS LEQUEL IL Y AURAIT UN VIDEO AVEC DE LA NOURRITURE EXCELLENTE -->
+        <!-- LE HERO PERMET À L'UTILISATEUR D'ETRE EMERVEILLÉ PAR LA QUALITÉ DE LA NOURRITURE ET DE LA VIDEO -->
+        <section class="gallery_texte gallery_texte_hero">
+            <img class="hero gallery_image_radius" src="images/vegge.jpg" alt="vegge-images-principale">
+            <div class="centered hero_logo">
+                <h1 class="font_hero_gros_texte font_texte_couleur">VEDGE</h1>
+                <h2 class="font_hero_moyen_texte font_texte_couleur">La grosse vie</h2>
+            </div>
+        </section>
+
+       
+
+        <!-- GRILLE D'ENTETE DE PAGE AVEC LES PROMOTIONS -->
+        <section>
+            <header class="gallery_image gallery_texte_promotions">
+                <div class="gallery_texte gallery_image_radius">
+                    <img  src="images/plate_nature.jpg" alt="plate-nature-spagetti">
+                    <div>
+                        <h2 class="centered">BOTANIQUE ET DÉCADENTE</h2>
+                    </div>
+                </div>
+                <div class="gallery_texte gallery_image_radius">
+                    <img src="images/drink.jpg" alt="drink-image-mimomas">
+                    <div>
+                        <h2 class="centered">DEUX MIMOSAS POUR 15$</h2>
+                    </div>
+                </div>
+            </header>
+        </section>
+
+  
+
+        <!-- Recette avc toi-->
+        <section class="gallery_texte gallery_texte_hero">
+            <img class="hero gallery_image_radius" src="images/recette2.jpg" alt="recette-image-vegetables">
+            <div>
+                <h1 class="font_hero_gros_texte_recette font_texte_recette">Avec ta recette!</h1>
+                <p>Commandez en ligne en un clic votre idée de repas souhaitée et recevez le résultat de la plus haute qualité.</p>
+                <a class=" carte_bouton" href="#">Commandez votre recette</a>
+            </div>   
+        </section>
+
+
+        <!-- CARTE AVEC BOUTON -->
+        <section class="carte">
+            <div>
+                <h1>Trouvez un restaurant près de chez vous.</h1>
+
+                <input aria-label="recherche_restaurant" type="text" id="fname" name="fname"><a class=" carte_bouton"
+                    href="#">OK</a>
+            </div>
+        </section>
+
+
+        <!-- GRILLE AVEC TOUS LES RESTAURANTS EN HOVER (SUR LE VRAI SITE, LA PHOTO VA ETRE CLAIR ETT VA DEVENIR FLOU AVEC LE TEXTE DE L'ENDROIT QUI VA APPARAITRE) -->
+        <header>
+            <section class="gallery_image">
+                <div class="gallery_texte gallery_image_radius gallery_texte_villes">
+                    <img src="images/1.jpg" alt="image-Trois-Rivières">
+                    <h2 class="gallery_transition centered">Trois-Rivières</h2>
+                </div>
+                <div class="gallery_texte gallery_image_radius gallery_texte_villes">
+                    <img src="images/2.jpg" alt="image-Drummondville">
+                    <h2 class="gallery_transition centered">Drummondville</h2>
+                </div>
+                <div class="gallery_texte gallery_image_radius gallery_texte_villes">
+                    <img src="images/3.jpg" alt="image-Val-Jalbert" >
+                    <h2 class="gallery_transition centered">Val-Jalbert</h2>
+                </div>
+                <div class="gallery_texte gallery_image_radius gallery_texte_villes">
+                    <img src="images/4.jpg" alt="image-Dix30">
+                    <h2 class="gallery_transition centered">Dix30</h2>
+                </div>
+                <div class="gallery_texte gallery_image_radius gallery_texte_villes">
+                    <img src="images/5.jpg" alt="image-Toronto">
+                    <h2 class="gallery_transition centered">Toronto</h2>
+                </div>
+                <div class="gallery_texte  gallery_image_radius gallery_texte_villes">
+                    <img src="images/6.jpg" alt="image-Berlin" >
+                    <h2 class="gallery_transition centered">Berlin</h2>
+                </div>
+            </section>
+        </header>
+       
+
+        <!-- CARTE POUR DEVENIR PROPRIÉTAIRE D'UN RESTAURANT VEDGE -->
+        <section class="carte">
+            <div>
+                <h1>Envi d'avoir votre propre restaurant?</h1>
+                <p>LAISSEZ-NOUS VOUS CONVAINCRE DE DÉVELOPPER VOTRE PROPRE FRANCHISE VEDGE!
+                </p>
+                <a class=" carte_bouton" href="#">CONTACTEZ NOUS</a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER DE LA PAGE AVEC SOUS MENU + HEURES + LOCALISATIONS -->
+    <footer>
+        <div class="footer">
+            <div class="footer_1">
+                <h2 class="footer_marge">INFORMATIONS</h2>
+                <ul>
+                    <li><a href="Notre-philosophie.html">Philosophie</a></li>
+                    <li><a href="#">Carrières</a></li>
+                    <li><a href="#">Franchise</a></li>
+                    <li><a href="#">Presse</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_2">
+                <h2 class="footer_marge">HEURES D'OUVERTURE</h2>
+                <ul>
+                    <li><a href="#">Lundi . 11:30–22:00</a></li>
+                    <li><a href="#">Mardi . 11:30–22:00</a></li>
+                    <li><a href="#">Mercredi . 11:30–22:00</a></li>
+                    <li><a href="#">Jeudi . 11:30–23:00</a></li>
+                    <li><a href="#">Vendredi . 11:30–23:00</a></li>
+                    <li><a href="#">Samedi . 10:00–23:00</a></li>
+                    <li><a href="#">Dimanche . 10:00–22:00</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_3">
+                <h2 class="footer_marge">LOCALISATIONS</h2>
+                <ul>
+                    <li><a href="#">1866 rue Veganisch, BD,DE</a></li>
+                    <li><a href="#">175 rue Salade, QC, CA</a></li>
+                    <li><a href="#">629 rue Green, ON, CA</a></li>
+                    <li><a href="#">707 rue de l'Aubergine, QC, CA</a></li>
+                    <li><a href="#">1777 rue de la Romaine, QC, CA</a></li>
+                </ul>
+            </div>
+
+            <div>
+            </div>
+            <div class="footer_droite"> 
+                <img src="images/logo.png" alt="logo_veggi">
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

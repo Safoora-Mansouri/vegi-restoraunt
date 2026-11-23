@@ -1,0 +1,65 @@
+#argumentaire
+Dans cette mission, nous avons progressé en fonction de la mission précédente.
+Par conséquent, le choix de la police et de la couleur est conforme aux raisons mentionnées précédemment.
+//Explications liées à la première page qui a été faite auparavant.
+Nous avons conçu un site Web pour un restaurant qui produit de la nourriture végétarienne.
+
+Palette de couleurs :
+Nous avons pensé que la première chose que le public verra sur le site Web est la palette de couleurs du site Web.
+Nous avons donc fait très attention à le choisir.
+La palette de couleurs comprend plusieurs nuances de vert différentes, qui rappellent la nature et les plantes qu'elle contient, ce qui est attrayant pour le public végétarien. Car la réflexion qui l'a conduit à choisir un restaurant végétarien est solidaire et respectueuse de la nature.
+Nous avons obtenu l'aide de colormoid.io .
+En plus de cette palette de couleurs, nous avons également ajouté la couleur orange. Car ... C'est une bonne combinaison pour la couleur verte et c'est accrocheur Parmi les couleurs vertes, il est utile d'attirer l'attention du public et de rompre la monotonie. C'est un bon choix pour un restaurant car il stimule l'appétit. C'est une couleur pleine d'énergie qui, avec le calme de la couleur verte, fournit notre objectif pour un restaurant végétarien.
+
+Police :
+Pour la police, notre préférence était de choisir la police.
+La lisibilité du contenu du site était l'une de nos priorités.
+Nous avons pris l'aide de lucida sans pour choisir la police.
+Cette police est très simple et lisible, et en même temps, les lignes brisées sont moins anguleuses, ce qui est plus proche de la nature. Nous pensons que cette police créera plus d'intimité et de proximité avec le public.
+Pour cette raison, nous avons utilisé une petite quantité d'ombre noire pour les écritures.
+
+Menue :
+Dans la barre de menu, pour la section restaurant, nous avons considéré la couleur et la police avec une petite différence. Cette décision a été prise en raison de la différence dans l'élément du restaurant, afin d'avoir un sous-menu.
+Pour la largeur de 300 pixels, nous avons décidé de placer la barre de menu dans un bouton à bascule pour rendre la page plus propre et plus élégante.
+Un menu déroulant a également été placé dans la section restaurant. Parce que les menus sont mieux organisés et plus simples ainsi que plus concis aussi.
+
+Cartes :
+Nous avons arrondi les bordures à 25 pixels pour les cartes. Parce qu'il n'y a pas normalement de lignes brisées dans la nature, et on a été fait ce travail pour rapprocher l’apparence de notre site presque de la nature.
+
+Persona :
+Alex, a trente-sept ans, est-il est un voyageur de la nature qui dirige des groupes d'alpinisme et de tourisme. Il est nageur et enseigne la natation aux enfants trois jours par semaine.
+Il étudie beaucoup.
+Il est végétarien et curieux. Il adore cuisiner et essayer de nouvelles saveurs.
+
+Structure de notre page :
+Dans une première étape, nous avons commencé la page en choisissant une grande photo du restaurant, dont le point culminant est la branche fleurie sur la table.
+En utilisant l'atmosphère calme et mate du restaurant et en donnant de la clarté aux fleurs sur la table, nous avons essayé de montrer l'importance de la nature dans cette restaurant aux clients qui ont définitivement avons un respect particulier pour la nature.
+
+Mimosas Pour 15$ et Botanique et Décadente :
+Nous avons placé la section promotion et l'assiette de nourriture plus haut pour garder le client curieux. 
+
+Avec ta recette :
+Et immédiatement après cela, nous avons placé une section de recette pour vous, qui ,selon a nos opinion, est la partie la plus importante du cette restaurant.
+Nous avons pensé que le client ne devait pas quitter la page car il pensait qu'il manquait son menu préféré.
+Donc avec cette rubrique, on arrive a trois chose important :
+Le respect du goût du client,
+La découverte du goût des végétariens, 
+L’excitation du client à essayer sa recette qui fait cuisiner par le chef expert.
+
+Trouvez restaurant et gallérie images :
+Ensuite, nous avons discuté des branches de la restauration, de son étendue, et bien sûr du choix du restaurant.
+//
+Mais notre stratégie pour continuer à travailler est la suivante.
+Sur la deuxième page Persona, il a pris une décision et sélectionné le restaurant souhaité.
+Par conséquent, nous avons priorisé les heures d'ouverture du restaurant et l'offre spéciale de se déplacer selon la façon de penser du client. Ensuite, nous mettons la carte du restaurant et les privilèges spéciaux du restaurant pour les groupes de plusieurs personnes.
+Et à la fin, l'avis des clients a été inclus pour plus d'encouragement.
+Sur la troisième page, qui est liée à la philosophie existentielle du restaurant, nous avons inclus du contenu lié aux clients spéciaux et à la recherche.
+Nous avons commencé par la partie bon goût et bon pour la nature. Et puis on a fait attention à la naturalité des ingrédients.
+Jusqu'à cette partie à deux motifs, vous pouvez retrouver la réintroduction du restaurant et la partie de votre restaurant.
+Notre stratégie dans le choix des sections de page était le processus de réflexion de Prosna. Pour que le contenu soit intéressant pour lui et qu'il suive la page.
+
+Création de sites web par:
+Mohammad Reza Habibzadeh
+Safoora Mansouri
+Toute la conception des pages a été réalisée ensemble.
+
